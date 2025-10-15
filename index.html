@@ -3,144 +3,126 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Assessoria Jurídica Águia Real</title>
+  <title>Assessoria Consultiva Águia Real</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-  <meta name="description" content="Escritório de Advocacia Assessoria Jurídica Águia Real. Consultoria e representação em Direito Civil, Trabalhista, Penal e Empresarial." />
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <meta name="description" content="Assessoria Consultiva Águia Real — Especialistas em benefícios do INSS, salário-maternidade, aposentadoria e suporte previdenciário humanizado." />
 </head>
+
 <body>
-  <header class="header" role="banner">
+  <header class="header">
     <div class="container">
-      <a class="brand" href="index.html" aria-label="Página inicial - Assessoria Jurídica Águia Real">
-        <img src="logo.jpeg" alt="Logo Assessoria Jurídica Águia Real" class="site-logo">
+      <a class="brand" href="index.html" aria-label="Página inicial - Assessoria Consultiva Águia Real">
+        <img src="logo.jpeg" alt="Logo Assessoria Consultiva Águia Real" class="site-logo">
         <div>
-          <h1>Assessoria Jurídica Águia Real</h1>
-          <div style="font-size:0.85rem; color:rgba(255,255,255,0.9)">Advocacia • Ética e Estratégia</div>
+          <h1>Assessoria Consultiva Águia Real</h1>
+          <div class="slogan">Cuidado, experiência e resultados para você</div>
         </div>
       </a>
 
-      <nav class="nav" role="navigation" aria-label="Menu principal">
+      <nav class="nav">
         <a href="index.html">Início</a>
-        <a href="equipe.html">Equipe</a>
-        <a href="artigos.html">Artigos</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="servicos.html">Serviços</a>
         <a href="contato.html">Contato</a>
-        <a class="btn" href="contato.html#agendamento">Agendar</a>
+        <a class="btn" href="contato.html#agendamento">Fale conosco</a>
       </nav>
     </div>
   </header>
 
   <main>
-    <section class="container hero" aria-labelledby="hero-title">
-      <div class="hero-left">
-        <h2 id="hero-title">Excelência jurídica com foco em resultados</h2>
-        <p>Atendimento personalizado em Direito Civil, Trabalhista, Penal e Empresarial. Assessoria preventiva e contenciosa, sempre com transparência.</p>
+    <section class="hero container">
+      <div class="hero-content">
+        <h2>Auxiliamos você a conquistar seus benefícios do INSS com agilidade e confiança</h2>
+        <p>Atendimento humanizado e especializado em salário-maternidade, aposentadoria e outros benefícios previdenciários.</p>
         <div class="cta">
           <a class="btn" href="contato.html#agendamento">Agendar consulta</a>
-          <a class="btn secondary" href="artigos.html">Ver artigos</a>
+          <a class="btn secondary" href="servicos.html">Conhecer serviços</a>
         </div>
-        <p style="margin-top:12px;color:var(--muted)">Atendimento presencial e online. Consulte disponibilidade de horários.</p>
       </div>
-
-      <div class="hero-right card" role="img" aria-label="Foto do escritório (reservado)">
-        (Espaço reservado - imagem do escritório)
+      <div class="hero-image" aria-label="Imagem ilustrativa de atendimento consultivo">
+        <img src="consultoria.jpg" alt="Atendimento consultivo" />
       </div>
     </section>
 
-    <section class="container section" aria-labelledby="areas-title">
+    <section class="section container">
+      <h3>Serviços oferecidos</h3>
+      <div class="grid">
+        <div class="card service">
+          <h4>Salário-Maternidade</h4>
+          <p>Orientamos e realizamos todo o processo para que você receba seu benefício com segurança e rapidez.</p>
+        </div>
+        <div class="card service">
+          <h4>Aposentadoria</h4>
+          <p>Análise detalhada do tempo de contribuição e documentação necessária para garantir o melhor benefício.</p>
+        </div>
+        <div class="card service">
+          <h4>Auxílio-Doença</h4>
+          <p>Suporte completo para solicitações e revisões de benefícios por incapacidade.</p>
+        </div>
+        <div class="card service">
+          <h4>Consultoria INSS</h4>
+          <p>Esclarecemos dúvidas e orientamos sobre direitos previdenciários de forma clara e acessível.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container about">
       <div class="card">
-        <h3 id="areas-title">Áreas de atuação</h3>
-        <div class="grid" style="margin-top:12px">
-          <div class="service">
-            <h3>Direito Civil</h3>
-            <p>Contratos, responsabilidade civil, família, sucessões e reparação de danos.</p>
+        <h3>Sobre nós</h3>
+        <p>Somos uma equipe dedicada em oferecer suporte consultivo de qualidade, com empatia e profissionalismo.  
+        A Assessoria Consultiva Águia Real nasceu com o propósito de ajudar pessoas a entenderem e conquistarem seus direitos previdenciários de forma simples e segura.</p>
+      </div>
+    </section>
+
+    <section class="section container team">
+      <h3>Nossa equipe consultiva</h3>
+      <div class="grid team-grid">
+        <div class="person card">
+          <img src="consultora1.jpg" alt="Consultora Ana Paula" class="avatar">
+          <div class="meta">
+            <strong>Ana Paula Martins</strong><br>
+            Especialista em Benefícios do INSS
           </div>
-          <div class="service">
-            <h3>Direito Trabalhista</h3>
-            <p>Atuação para empregados e empregadores, reclamações trabalhistas e acordos extrajudiciais.</p>
-          </div>
-          <div class="service">
-            <h3>Direito Penal</h3>
-            <p>Defesa técnica, acompanhamento processual e medidas cautelares.</p>
-          </div>
-          <div class="service">
-            <h3>Direito Empresarial</h3>
-            <p>Contratos comerciais, recuperação e consultoria para negócios.</p>
+        </div>
+        <div class="person card">
+          <img src="consultor2.jpg" alt="Consultor João Henrique" class="avatar">
+          <div class="meta">
+            <strong>João Henrique</strong><br>
+            Consultor Previdenciário
           </div>
         </div>
       </div>
     </section>
 
-    <section class="container section" aria-labelledby="sobre-title">
-      <div class="card">
-        <h3 id="sobre-title">Sobre o escritório</h3>
-        <p style="color:var(--muted); margin-top:8px">O escritório Assessoria Jurídica Águia Real alia conhecimento técnico à experiência prática. Buscamos soluções eficientes, priorizando comunicação clara com nossos clientes.</p>
-        <div style="display:flex; gap:16px; margin-top:16px; align-items:center">
-          <div class="badge">OAB</div>
-          <div class="kv">CNPJ: 00.000.000/0000-00</div>
-        </div>
-      </div>
-    </section>
-
-    <section class="container section" aria-labelledby="equipe-preview">
-      <h3 id="equipe-preview">Equipe</h3>
-      <div class="team" style="margin-top:12px">
-        <div class="person card">
-          <div class="avatar-placeholder" aria-hidden="true">(Foto)</div>
-          <div class="meta">
-            <strong>Dr. Marcelo Alves</strong><br>
-            OAB/SP 123.456 • Sócio-fundador
-          </div>
-        </div>
-
-        <div class="person card">
-          <div class="avatar-placeholder" aria-hidden="true">(Foto)</div>
-          <div class="meta">
-            <strong>Dra. Laura Cruz</strong><br>
-            Direito Trabalhista
-          </div>
-        </div>
-
-        <div class="person card">
-          <div class="avatar-placeholder" aria-hidden="true">(Foto)</div>
-          <div class="meta">
-            <strong>Dr. Rafael Santos</strong><br>
-            Direito Empresarial
-          </div>
-        </div>
-      </div>
-      <div style="margin-top:12px">
-        <a class="btn secondary" href="equipe.html">Ver equipe completa</a>
-      </div>
-    </section>
-
-    <section class="container section card" aria-labelledby="artigos-preview">
-      <h3 id="artigos-preview">Últimos artigos</h3>
-      <div style="margin-top:12px" class="articles">
+    <section class="section container articles card">
+      <h3>Dicas e informações</h3>
+      <div class="articles-grid">
         <div class="article">
-          <h4>Como funciona uma reclamação trabalhista?</h4>
-          <p>Entenda o prazo, documentos e os passos básicos para iniciar uma ação trabalhista.</p>
+          <h4>Como solicitar o salário-maternidade online</h4>
+          <p>Passo a passo para fazer o pedido do benefício sem sair de casa.</p>
         </div>
         <div class="article">
-          <h4>Contratos empresariais: cláusulas essenciais</h4>
-          <p>Principais pontos a observar para reduzir riscos em contratos comerciais.</p>
+          <h4>Documentos essenciais para aposentadoria</h4>
+          <p>Confira o que você precisa ter em mãos antes de iniciar o processo.</p>
         </div>
         <div class="article">
-          <h4>Guia rápido: direitos do consumidor</h4>
-          <p>Dicas para reclamar seus direitos em casos de serviços e produtos com problemas.</p>
+          <h4>Entenda seus direitos no INSS</h4>
+          <p>Informações úteis para evitar atrasos e indeferimentos.</p>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="footer" role="contentinfo">
+  <footer class="footer">
     <div class="container">
       <div>
-        <div style="font-weight:700">Assessoria Jurídica Águia Real</div>
-        <div class="small" style="margin-top:6px">Endereço • Telefone • Email</div>
+        <strong>Assessoria Consultiva Águia Real</strong><br>
+        <small>Atendimento online e presencial — Humanizado e acessível</small>
       </div>
-      <div class="small">&copy; <span id="ano"></span> Assessoria Jurídica Águia Real. Todos os direitos reservados.</div>
+      <div class="small">&copy; <span id="ano"></span> Águia Real. Todos os direitos reservados.</div>
     </div>
   </footer>
 
